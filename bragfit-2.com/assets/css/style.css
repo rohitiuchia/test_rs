@@ -1,0 +1,105 @@
+.dropdown-toggle
+{
+ padding: 5px;
+ color: black ;
+}
+.dropdown-toggle:hover
+{
+  color: #F2BB2F;
+}
+.dropdown-menu{
+
+   display: none;
+   color:blue;
+   border: blue;
+   text-align: center;
+   z-index: 10;
+   position: fixed;
+   padding: 5px;
+ }
+ .dropdown-menu a:hover 
+  {
+   background-color:BLUE;
+   color: yellow;
+  }
+
+  .dropdown:hover .dropdown-menu
+  {
+   display: block;
+   background-color: white;
+  }
+  .d-flex span:hover
+   {
+    color: #B0B0B0;
+   }
+  .bg-my
+  {
+    background-color: #F3F3F3;
+  }
+  .text-my
+  {
+    color: #F2C553;
+  }
+  .box
+  {
+    border: 1px solid #F2BB2F;
+    border-radius: 20px;
+    background-color: #F2BB2F;
+    margin: 5px;
+    padding: 20px;
+    height: 150px;
+  }
+  .circle
+  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50%;
+
+    background-color: #F2BB2F;
+  }
+  .bg-my2
+  {
+    background-color: #232323;
+  }
+
+
+  .m4a1{
+    position: relative;
+    visibility: hidden;
+    top: -60px;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+  }
+
+   .scar:hover .m4a1{
+    position: relative;
+    background-color: white;
+    visibility: visible;
+    margin: auto;
+    width: 160px;
+    height: 50px;
+    animation: mytest .5s 1;
+   }
+   .scar{
+    position: relative;
+   }
+   .upp{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+   }
+
+   @keyframes mytest{
+    from{top: -30px;}
+    to{ top: -60px;}
+   }
+   .box2
+   {
+    border: 1px solid #FFFFFF;
+    background-color: white;
+
+   }
